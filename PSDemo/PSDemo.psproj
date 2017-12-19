@@ -1,0 +1,32 @@
+﻿<Project Synchronized="True" SyncFilter="*.ps1;*.psm1;*.psd1;*.ps1xml;*.psf;*.pss;*.xml;*.help.txt;*.dll;*.md">
+  <Version>2.0</Version>
+  <FileID>fae86c20-b09c-48c5-972f-8a610aecc55d</FileID>
+  <ProjectType>1</ProjectType>
+  <Folders>
+    <Folder>bin</Folder>
+    <Folder>en-us</Folder>
+    <Folder>functions</Folder>
+    <Folder>internal</Folder>
+    <Folder>internal\configurations</Folder>
+    <Folder>internal\functions</Folder>
+    <Folder>internal\scripts</Folder>
+    <Folder>internal\tepp</Folder>
+    <Folder>tests</Folder>
+    <Folder>xml</Folder>
+  </Folders>
+  <Files>
+    <File Build="2">PSDemo.psd1</File>
+    <File Build="0">PSDemo.psm1</File>
+    <File Build="2">en-us\about_PSDemo.help.txt</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-preimport_ps1">internal\scripts\preimport.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-postimport_ps1">internal\scripts\postimport.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-pester_ps1">tests\pester.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-example-configuration_ps1">internal\configurations\example-configuration.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-tabexpansion_ps1">internal\tepp\tabexpansion.ps1</File>
+    <File Build="2">bin\Readme.md</File>
+    <File Build="2">functions\Readme.md</File>
+    <File Build="2">xml\Readme.md</File>
+    <File Build="2">internal\functions\Readme.md</File>
+  </Files>
+  <StartupScript>F:\Code &amp; Projects\Github Repositories\PSDemo\PSDemo\PSDemo.psm1</StartupScript>
+</Project>
