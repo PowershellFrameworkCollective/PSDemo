@@ -13,6 +13,10 @@
     <Folder>internal\tepp</Folder>
     <Folder>tests</Folder>
     <Folder>xml</Folder>
+    <Folder>functions\recording</Folder>
+    <Folder>functions\project</Folder>
+    <Folder>functions\elements</Folder>
+    <Folder>internal\functions\project</Folder>
   </Folders>
   <Files>
     <File Build="2">PSDemo.psd1</File>
@@ -21,12 +25,28 @@
     <File Build="2" Shared="True" ReferenceFunction="Invoke-preimport_ps1">internal\scripts\preimport.ps1</File>
     <File Build="2" Shared="True" ReferenceFunction="Invoke-postimport_ps1">internal\scripts\postimport.ps1</File>
     <File Build="2" Shared="True" ReferenceFunction="Invoke-pester_ps1">tests\pester.ps1</File>
-    <File Build="2" Shared="True" ReferenceFunction="Invoke-example-configuration_ps1">internal\configurations\example-configuration.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-path_ps1">internal\configurations\path.ps1</File>
     <File Build="2" Shared="True" ReferenceFunction="Invoke-tabexpansion_ps1">internal\tepp\tabexpansion.ps1</File>
     <File Build="2">bin\Readme.md</File>
     <File Build="2">functions\Readme.md</File>
     <File Build="2">xml\Readme.md</File>
     <File Build="2">internal\functions\Readme.md</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Start-PSDRecording_ps1">functions\recording\Start-PSDRecording.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Stop-PSDRecording_ps1">functions\recording\Stop-PSDRecording.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Get-PSDProject_ps1">functions\project\Get-PSDProject.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Set-PSDProject_ps1">functions\project\Set-PSDProject.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-New-PSDProject_ps1">functions\project\New-PSDProject.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Remove-PSDProject_ps1">functions\project\Remove-PSDProject.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Export-PSDProject_ps1">functions\project\Export-PSDProject.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Import-PSDProject_ps1">functions\project\Import-PSDProject.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Invoke-PSDProject_ps1">functions\project\Invoke-PSDProject.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Get-PSDElement_ps1">functions\elements\Get-PSDElement.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Set-PSDElement_ps1">functions\elements\Set-PSDElement.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-New-PSDElement_ps1">functions\elements\New-PSDElement.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Remove-PSDElement_ps1">functions\elements\Remove-PSDElement.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Mount-PSDProject_ps1">functions\project\Mount-PSDProject.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Get-MountedProject_ps1">internal\functions\project\Get-MountedProject.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Read-ProjectChoice_ps1">internal\functions\project\Read-ProjectChoice.ps1</File>
   </Files>
   <StartupScript>F:\Code &amp; Projects\Github Repositories\PSDemo\PSDemo\PSDemo.psm1</StartupScript>
 </Project>
