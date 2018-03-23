@@ -1,1 +1,0 @@
-﻿Set-PSFConfig -Module PSDemo -Name 'path.projects' -Value "$env:USERPROFILE\Documents\PSDemo\Projects" -Validation "string" -Initialize -Description "The path where PSDemo will look for project files."

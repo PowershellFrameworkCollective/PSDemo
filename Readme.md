@@ -1,10 +1,5 @@
-# PSDemo
+# Description
 
-This module is designed to help presenting PowerShell code, by ...
+Insert a useful description for the PSDemo project here.
 
- - Tying code-writing to presenter input
- - Tying results display to presenter input
-
-## Progress
-
-Still setting up, nothing to see yet
+Remember, it's the first thing a visitor will see.

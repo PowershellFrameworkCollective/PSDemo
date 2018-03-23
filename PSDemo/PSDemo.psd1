@@ -1,76 +1,77 @@
-﻿@{
-	
+@{
 	# Script module or binary module file associated with this manifest
-	RootModule = 'PSDemo.psm1'
+	ModuleToProcess = 'PSDemo.psm1'
 	
 	# Version number of this module.
-	ModuleVersion = '0.0.0.1'
+	ModuleVersion = '0.1.0.0'
 	
 	# ID used to uniquely identify this module
-	GUID = 'fae86c20-b09c-48c5-972f-8a610aecc55d'
+	GUID = 'd0c06110-656e-4057-9fa4-2cf30ad24711'
 	
 	# Author of this module
 	Author = 'Friedrich Weinmann'
 	
 	# Company or vendor of this module
-	CompanyName = 'PowerShell Framework Collective'
+	CompanyName = 'PSFramework Project'
 	
 	# Copyright statement for this module
-	Copyright = '(c) 2017. All rights reserved.'
+	Copyright = 'Copyright (c) 2018 Friedrich Weinmann'
 	
 	# Description of the functionality provided by this module
-	Description = 'A module designed to help presenting PowerShell code'
+	Description = 'Helps with presenting PowerShell'
 	
 	# Minimum version of the Windows PowerShell engine required by this module
 	PowerShellVersion = '5.0'
 	
 	# Name of the Windows PowerShell host required by this module
-	PowerShellHostName = ''
+	# PowerShellHostName = ''
 	
 	# Minimum version of the Windows PowerShell host required by this module
-	PowerShellHostVersion = ''
+	# PowerShellHostVersion = ''
 	
 	# Minimum version of the .NET Framework required by this module
-	DotNetFrameworkVersion = '2.0'
+	# DotNetFrameworkVersion = '2.0'
 	
 	# Minimum version of the common language runtime (CLR) required by this module
-	CLRVersion = '2.0.50727'
+	# CLRVersion = '2.0.50727'
 	
 	# Processor architecture (None, X86, Amd64, IA64) required by this module
-	ProcessorArchitecture = 'None'
+	# ProcessorArchitecture = 'None'
 	
 	# Modules that must be imported into the global environment prior to importing
 	# this module
-	RequiredModules = @(@{ ModuleName = 'PSFramework'; ModuleVersion = '0.9.5.10' })
+	RequiredModules = @(
+		@{ ModuleName='PSFramework'; ModuleVersion='0.9.11.25' }
+	)
 	
 	# Assemblies that must be loaded prior to importing this module
-	RequiredAssemblies = @()
+	# RequiredAssemblies = @()
 	
 	# Script files (.ps1) that are run in the caller's environment prior to
 	# importing this module
-	ScriptsToProcess = @()
+	# ScriptsToProcess = @()
 	
 	# Type files (.ps1xml) to be loaded when importing this module
-	TypesToProcess = @()
+	# TypesToProcess = @('xml\PSDemo.Types.ps1xml')
 	
 	# Format files (.ps1xml) to be loaded when importing this module
-	FormatsToProcess = @()
+	# FormatsToProcess = @('xml\PSDemo.Format.ps1xml')
 	
 	# Modules to import as nested modules of the module specified in
 	# ModuleToProcess
-	NestedModules = @()
+	# NestedModules = @()
 	
 	# Functions to export from this module
-	FunctionsToExport = '' #For performanace, list functions explicity
+	FunctionsToExport = ''
 	
 	# Cmdlets to export from this module
-	CmdletsToExport = '' 
+	CmdletsToExport = ''
 	
 	# Variables to export from this module
 	VariablesToExport = ''
 	
 	# Aliases to export from this module
-	AliasesToExport = '' #For performanace, list alias explicity
+	AliasesToExport = ''
 	
 	# List of all modules packaged with this module
 	ModuleList = @()
@@ -103,10 +104,3 @@
 		
 	} # End of PrivateData hashtable
 }
-
-
-
-
-
-
-
